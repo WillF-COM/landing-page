@@ -137,23 +137,40 @@ body{
 
 /* Call-to-action*/
 .call-to-action{
-    padding: 50px;
+    padding: 40px;
     margin: 0;
-    align-content: center;
 }
 .action{
     background-color: #3882f6;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 12px;
-    justify-content: space-between;
+    border-radius: 8px;
     color: #f9faf8;
-    
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;    
 }
 .call{
     font-size: 36px;
     color:white;
-    font-weight: 900;
-    align-items: center;
+    font-weight: 900;    
+}
+.btn-signupu{
+    display: inline-block;
+    align-content: flex-end;
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 28px ;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border: solid;
+}
+
+.footer{
+    background-color: #1f2937;
+    font-size: 15px;
+    color: #f9faf8;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
 }
